@@ -1,0 +1,2269 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "3bab7b56-b56a-4204-8caa-925d4a6e9d82",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello world\n",
+      "another line\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"hello world\")\n",
+    "print (\"another line\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "f72bae79-97d6-47b7-9f4b-7b7c56418705",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1 + 1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2f95bfbe-ff64-4feb-bf41-c1516ab9eb34",
+   "metadata": {},
+   "source": [
+    "# This is a heading "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "e1f1c401-6daf-4841-bc33-3c983fbb8782",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1 + 8"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cdc34177-0757-4555-a9d8-8f23f69ba7a5",
+   "metadata": {},
+   "source": [
+    "this is markdown text "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "7496d5d3-b764-4374-844d-3b08a3c9f27d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (2743838272.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[6], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    PSYC 5P02 Lecture 3 MarkDown Notes\u001b[0m\n\u001b[0m         ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "PSYC 5P02 Lecture 3 MarkDown Notes \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "759a5606-3876-4fb8-8883-9188260c4e77",
+   "metadata": {},
+   "source": [
+    "# Computer Programming Lecture Three Notes "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9e6745e0-8ed0-4a1d-8a5d-9b3a341028d7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3d8e9788-a574-4cd7-8fee-9cd5367401f2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "318c8d9a-8ff0-4291-afea-fef46739b80e",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'pring' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[7], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m pring (\u001b[38;5;241m1\u001b[39m \u001b[38;5;241m+\u001b[39m \u001b[38;5;241m1\u001b[39m)\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'pring' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "pring (1 + 1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "8f9ea4b4-8b08-4990-bba2-7beda08ed665",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (1 + 1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "5adcd7c8-dbb2-4708-936d-a6de72ec9bca",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 + 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "print ('1 + 1')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8045162c-61fa-4890-8f63-1256d960beae",
+   "metadata": {},
+   "source": [
+    "## Data types in python\n",
+    "* Affects how information is stored and what can be done to it. \n",
+    "* Text type is string, and numeric types."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d028c15e-01c7-4f07-99aa-1175c28d7cf9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9535c93f-d5f1-4010-9119-7c8fb93b5410",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b9905b56-09ff-4fe0-86e7-e743856aa00b",
+   "metadata": {
+    "jp-MarkdownHeadingCollapsed": true
+   },
+   "source": [
+    "### Operators \n",
+    "* Operators are used to perform operations on variables and values\n",
+    "* Arithmetic operators operate on number types\n",
+    "* Work without any special notation or added info from yourself"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "835483ed-77d3-4abb-9f30-49191e975028",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "87bf94b0-1390-4d4b-b7d1-c6727482f6fd",
+   "metadata": {},
+   "source": [
+    "Functions are more elaborate pieces of code, name (arguments). Name of the function, and any arguments that the function takes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "bb4fc2ae-0b64-49fd-a756-10a261e09508",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hellow world\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"hellow world\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d4436f03-9005-469a-9f4b-0893772493da",
+   "metadata": {},
+   "source": [
+    "hello word is a data type string - donnated with quotes, numbers go by themselves "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "d2137505-fcae-49fe-81bb-607515180047",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Help on built-in function print in module builtins:\n",
+      "\n",
+      "print(*args, sep=' ', end='\\n', file=None, flush=False)\n",
+      "    Prints the values to a stream, or to sys.stdout by default.\n",
+      "\n",
+      "    sep\n",
+      "      string inserted between values, default a space.\n",
+      "    end\n",
+      "      string appended after the last value, default a newline.\n",
+      "    file\n",
+      "      a file-like object (stream); defaults to the current sys.stdout.\n",
+      "    flush\n",
+      "      whether to forcibly flush the stream.\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "help(print)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a27d9ae9-d42a-43d7-bdb1-55d56019e8ac",
+   "metadata": {},
+   "source": [
+    "### Help function \n",
+    "* Help command is the manual of different commands\n",
+    "* Tells you what it does and the differnet options available"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7b87ee32-7f26-4bd7-83e8-bdd751ed2f98",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "652db544-4f8b-49d0-8f75-648d045a3243",
+   "metadata": {},
+   "source": [
+    "Variables are placeholders (memory locations) for storing data values "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "c0922668-7cfc-4640-968a-1c2eb2d9e4e0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = 1 + 1\n",
+    "text = \"hello world\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "29d43a68-d10f-42dd-bec3-c1938a9d776d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "d539696d-37ea-49b5-bfcd-b2d6c0d6b8f4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hello world'"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "text"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1756df3b-773d-4469-9e1e-ed159a2ae266",
+   "metadata": {},
+   "source": [
+    "The operation is done before then, and then when you type the coded variable or text name it the answer will appear"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c8f0fba7-9290-497e-92d4-414d38916e65",
+   "metadata": {},
+   "source": [
+    "### Varibale names\n",
+    "* Must start with a letter or underscore\n",
+    "* Can only contain numbers, letters, underscores\n",
+    "* Can not start with number"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "15205733-23df-4094-a509-52fc4dcb72ae",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "bb9f1a5e-c745-4364-b255-c302e52c7e94",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a, b, c, = 1, 2, 3\n",
+    "x = y = z = 10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "05040cc1-1227-4936-a3cd-dc217e1539c7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "0568a1b5-fce4-468e-9934-b9151dc19676",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "05a00665-d34d-4aaa-9aab-25b68f578449",
+   "metadata": {},
+   "source": [
+    "Muiltiple assignments\n",
+    "* For e.g., where a is equal to 1, b is equal to 2, and c is equal to 3\n",
+    "* Then X,Y,Z all are equal to 10"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "128a9611-7436-49e5-b501-8517d9374034",
+   "metadata": {},
+   "source": [
+    "#### Important to keep track of varibale names, and have useful names\n",
+    "* Now x is equal to 10 and not 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a4af653e-bb00-4b2b-8630-cf9787c63409",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5cc8085e-cd3b-43fc-a21b-b5d9a8f62eed",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9d231ed5-37cc-4471-88d7-8ff834a5023b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "faf1d5f2-315b-4572-87a9-a3294c20d435",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a + b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "8b481569-5eb1-48ca-8f3d-45c8e4e4d982",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'hello' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[23], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m hello \u001b[38;5;241m+\u001b[39m x\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'hello' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "hello + x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "7c33a1f9-df3e-43f2-b207-0df9b3b87cb2",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (852275559.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[24], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    hello world + x\u001b[0m\n\u001b[0m          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "hello world + x\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "9b83a289-76b5-4b68-8816-1f03ca1dd894",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "unterminated string literal (detected at line 1) (3668316667.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[25], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    'hello\" + x\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unterminated string literal (detected at line 1)\n"
+     ]
+    }
+   ],
+   "source": [
+    "'hello\" + x\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "81f8773f-c86f-4efc-b69c-5951eed93deb",
+   "metadata": {},
+   "source": [
+    "\n",
+    "### Type error \n",
+    "* Different errors will come up if the coding is incorrect \n",
+    "* Tring to perform an operation between two different types (string and numeric)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0090560c-27bd-4d21-95f0-27fd3144799f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "782ca5bf-c751-4e35-ab92-8c159dc387c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ab'"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'a' + 'b'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "17c70721-03f1-45f4-a988-39716f0bbddb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7a908f5e-a6c2-43b8-98d5-a1101c7f3e1e",
+   "metadata": {},
+   "source": [
+    "### Type command \n",
+    "* Tells you what kind of varible it is\n",
+    "* Can be string (text) or Int (numeric)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "80479290-8fe2-4984-b2bc-8911904aa243",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "99434311-9245-4940-96bf-70a810b6f0a6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x = 'text'\n",
+    "type(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "65181106-533a-4f9c-a8ad-c327fefff48e",
+   "metadata": {},
+   "source": [
+    "#### Note. Can override this by changing what kind of varible it is \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1dc0b52f-fb15-4888-a45b-541b3c701418",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "9a012986-07be-4cfe-8990-8925afaefa80",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2065419873.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[32], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    x = 1 + 1:\u001b[0m\n\u001b[0m             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 1 + 1:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "65bde45e-8b5b-4b22-b4dc-bcc650b5fde5",
+   "metadata": {},
+   "source": [
+    "#### Note. invalid syntax promopt - indicating that the coding has an error"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fa3b5fb7-091b-4658-bd3d-b2153250113b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "89dae6dc-4968-405d-9e39-dc7022c369b4",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'myVarb' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[33], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[38;5;28mprint\u001b[39m(myVarb)\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'myVarb' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "print(myVarb)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "012a84ac-12f5-4c2f-a517-0a4d34d6e5a4",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'x' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[34], line 2\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[38;5;28;01mdel\u001b[39;00m(x)\n\u001b[0;32m----> 2\u001b[0m \u001b[38;5;28mprint\u001b[39m(x)\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'x' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "del(x)\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d31eeb76-2700-4192-be04-7189feab0e8a",
+   "metadata": {},
+   "source": [
+    "#### Delete command\n",
+    "* del command\n",
+    "* This command deletes exisiting varibles\n",
+    "* del (define varible name) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dd93e6f8-79a3-4264-b9ab-df54fdad22f3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "6d517b3a-01b6-4390-8fdf-bd4030259e60",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'/Users/erinvanscoy'"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pwd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ccfaf287-19a5-4fd7-8b81-abd54bba8b3a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "ls"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "de8d9007-6a10-4d23-87c1-dade2f47a28a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "myInt = 111"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "4ef7a87f-6357-412d-9012-7242eb1228bc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "myString = '111'\n",
+    "len(myString)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "3c60b912-6aa6-479e-9887-7b2a17ebafbc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "11"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "newString = 'hello world'\n",
+    "len(newString)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "c22dccf2-4a2c-4bc7-bb31-b361b2819c3d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'h'"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "newString[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6496b94e-a896-47c3-b789-94d715a23301",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fdd3927d-7e05-447a-ad61-5c79c615a8c0",
+   "metadata": {},
+   "source": [
+    "### Indexing \n",
+    "* Every value in the string have an index\n",
+    "* You can index or select a specific elemtn of that variable using the [] characters\n",
+    "* Everything starts at 0\n",
+    "* NewString [0] - pointing to a speciifc index in those characters\n",
+    "* Can also specifiy a range of values seperated by a \":\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "d5b6b56d-d081-41f7-9eb7-6434a9b84b2e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ello'"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "newString[1:5]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1dbcc586-f63f-40d9-a61f-27c5ee6080bb",
+   "metadata": {},
+   "source": [
+    "#### Note. This is saying take the values in the index location 1-5 in that string"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "3818ae49-a552-4e12-be01-66f6ad844c91",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'el o'"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "newString [1:9:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "61054914-f1c0-4e3d-bfa7-3bbb41410971",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'drwo'"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "newString[-1:2:-2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "5fea57fd-c83b-40a5-a129-fd5e41625fd4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'111'"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "myString[0:5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "aaa528e5-fd3e-407e-ab85-fca0a19c56f9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hello'"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "newString[0:5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "049e71d3-bc28-4689-8013-62bdfd16df46",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'world'"
+      ]
+     },
+     "execution_count": 51,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "newString[6:11]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "e73785e4-ac31-43fe-907c-35ae6eda80b3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'dlrow olleh'"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "newString[-1:-12:-1]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4c2e3944-b2bd-480d-9515-bc495df439d8",
+   "metadata": {},
+   "source": [
+    "### Ranges are non-inclusive \n",
+    "* From 0-5, what this means is to take the first 5 elements (0,1,2,3,4)\n",
+    "* When we went backwards, we had to say whatever the total number is + 1 (e.g., 11 + 1)\n",
+    "* Remember that index will always start at 0 "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1f1d08d8-f17f-48cb-9719-765e68fe5b16",
+   "metadata": {},
+   "source": [
+    "### Lists, Tuples, Sets & Dictionaries\n",
+    "* Lists - creates using square brackets \n",
+    "* Datatype that contains a list of values, seperated by commas \n",
+    "* Lists are typically ordered and changable \n",
+    "* Ordered - they have a defined order that will not change \n",
+    "* Changable - we can change, add, and remove items from the list\n",
+    "* In this example, myList is drinks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6814b047-99b9-412e-990d-643a856730be",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "11f55443-26ba-40e3-b5e6-40bea36fefc8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "55822e0e-fe0e-4e15-9940-92a2059f28b1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "drinks = [\"whiskey\", 101, \"vodka\", \"lager\", \"cider\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "b6dd60a9-0683-448e-a765-a4e2d8bd1ade",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 70,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(drinks)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "c446ccbd-d36c-4869-8a16-0b87eafefcd3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "whiskey\n"
+     ]
+    }
+   ],
+   "source": [
+    "shots = drinks [0]\n",
+    "print(shots)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "1c1bc6f6-02d9-4c85-966e-e377c032fede",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['vodka', 'lager']"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "drinks [2:4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "d068e395-329f-4050-8f28-409927ebbc7a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "drinks.append (\"wine\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "b0363f90-af6a-4172-9ff6-0419f4118110",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['whiskey', 101, 'vodka', 'lager', 'cider', 'wine']"
+      ]
+     },
+     "execution_count": 74,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "drinks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "203ddcc4-09c9-4636-93d9-6d39005387e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 75,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(drinks)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c3891dc2-d12e-4e6b-b205-ad947e17c9ad",
+   "metadata": {},
+   "source": [
+    "### Append command \n",
+    "* This command is used to add something into a list \n",
+    "* In this exampple we added wine to the drinks list \n",
+    "* Use command drink.append (\"name of drink\")\n",
+    "* Extend command \n",
+    "\n",
+    "### Insert command \n",
+    "* This command inserts a new item in the list\n",
+    "* You need to specifiy where you want it to go\n",
+    "\n",
+    "\n",
+    "### Tuples, Sets and Dictionaries \n",
+    "* Lists are defined by square brackets \n",
+    "* Tuple is ordered and unchangable and is defined using round brackets\n",
+    "* Set is unordered, unchangable, and unindexed. It is defined by using curly brackets\n",
+    "* Dictionary stores data values in key: value pairs, it is ordered, changable and does not allow supplicates, meaning you cant have the same thing twice\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fa68e570-e8e6-4ada-9a88-578e3fcdc094",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "f2c58fe9-abf6-4ad5-a015-571248604a5d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "drinks [3]='rum'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "c4697a76-7841-48da-ba2f-7774fdc45370",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['whiskey',\n",
+       " 101,\n",
+       " 'vodka',\n",
+       " 'rum',\n",
+       " 'lager',\n",
+       " 'cider',\n",
+       " 'wine',\n",
+       " ['beer', 'water'],\n",
+       " 'beer',\n",
+       " 'water',\n",
+       " 'beer',\n",
+       " 'water']"
+      ]
+     },
+     "execution_count": 88,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "drinks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4eb524c5-cdea-414d-9ab5-f33e2eb0282b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "a824657b-71eb-435a-88b1-001b147043c7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "newDrinks = [\"beer\", \"water\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "id": "2250c7cf-8907-43c2-897b-b96da7b34e94",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "drinks.extend (newDrinks)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "efceceae-a1ce-4ca2-afec-799c4a4deed6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['whiskey',\n",
+       " 101,\n",
+       " 'vodka',\n",
+       " 'ice tea',\n",
+       " 'lager',\n",
+       " 'cider',\n",
+       " 'wine',\n",
+       " ['beer', 'water'],\n",
+       " 'beer',\n",
+       " 'water',\n",
+       " 'beer',\n",
+       " 'water']"
+      ]
+     },
+     "execution_count": 86,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "drinks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "3d45c768-ae0e-4261-a913-aab63515ecbd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['whiskey',\n",
+       " 101,\n",
+       " 'vodka',\n",
+       " 'lager',\n",
+       " 'cider',\n",
+       " 'wine',\n",
+       " ['beer', 'water'],\n",
+       " 'beer',\n",
+       " 'water',\n",
+       " 'beer',\n",
+       " 'water']"
+      ]
+     },
+     "execution_count": 84,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "drinks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "id": "f7d7af82-1ae0-4973-9f1a-dd754963ac51",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "drinks.insert(3,\"ice tea\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b1205a83-4556-47a6-aa20-151ff7e129c1",
+   "metadata": {},
+   "source": [
+    "### If statments \n",
+    "* Carried out by boolean values\n",
+    "* Expressed via operators which make comparions between two values \n",
+    "* Include symbols like ==, !>, >, <, <=, >=\n",
+    "* !>  means not equal too\n",
+    "* If statment begins with if\n",
+    "* Then their is a conditional (b > a) (if b is greater than a then execute this next bit of code). This must end with a : and then tabe endented for the next line of code\n",
+    "* The next line of code has a second conditional (else if) and then a final code\n",
+    "\n",
+    "### Match and Case\n",
+    "* Match is similar to if\n",
+    "* A way to evaluate different outcomes (especially if you have a fixed number of outcomes)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "60f97516-ae70-495d-b352-a529ca60d773",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "706bccf0-b526-410d-877e-8c783d9186d0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1f8d8462-9bc4-4608-873a-20abf8e7920e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6ab5ba2e-cd27-43e9-8fd6-2c6d6835cfe8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c3c353aa-efac-449f-9cb9-d5a3301750fb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "5db603fc-11af-478c-b833-c770d88ef19c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y = 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 99,
+   "id": "72177dfe-dd9f-452a-b75f-bb63adce7fa6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2ceeb9bf-9640-4f80-9a08-3ffec895f5eb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "id": "44dbef29-6c08-414a-9029-b8adb06f6cff",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 100,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x != y and x > y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "id": "0f3186e1-b534-499b-bba9-4eb27d372287",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 101,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x != y or x > y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "83c5d31b-6a4f-4eb0-b5f7-9754ffc4ea82",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "id": "6e47f5eb-1c46-4899-b840-ddf47db67fe0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 102,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x != y and not x > y\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "id": "fa4a778e-6b3c-4c08-ac19-cea2673c9594",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 103,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x != y and bool(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "id": "b63cfa5e-d31b-4445-8c42-5ddb4f1c3515",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 104,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x != y and bool(0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 107,
+   "id": "c05b4f5d-a482-4a45-9593-8700ea63f44c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "non of that stuff was true\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 200\n",
+    "b = 33\n",
+    "if b > a:\n",
+    "    print(\"b is greater than a\")\n",
+    "elif a == b:\n",
+    "    print(\"a and b are equal\")\n",
+    "else: \n",
+    "    print(\"non of that stuff was true\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "66a3afc5-f40d-4e98-9c06-8b339d3ea2e7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "id": "f8f18732-3537-4a5f-9ff4-41957c5b92ac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "!touch tmp.txt"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2702c191-3515-438b-b661-56412eead7fc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "ls"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "id": "a863da69-4a11-4d92-960c-0919b8492638",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "KeyboardInterrupt",
+     "evalue": "Interrupted by user",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[111], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m name \u001b[38;5;241m=\u001b[39m \u001b[38;5;28minput\u001b[39m (\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mjohn, erin, maggie\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n",
+      "File \u001b[0;32m/opt/anaconda3/lib/python3.13/site-packages/ipykernel/kernelbase.py:1282\u001b[0m, in \u001b[0;36mKernel.raw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m   1280\u001b[0m     msg \u001b[38;5;241m=\u001b[39m \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mraw_input was called, but this frontend does not support input requests.\u001b[39m\u001b[38;5;124m\"\u001b[39m\n\u001b[1;32m   1281\u001b[0m     \u001b[38;5;28;01mraise\u001b[39;00m StdinNotImplementedError(msg)\n\u001b[0;32m-> 1282\u001b[0m \u001b[38;5;28;01mreturn\u001b[39;00m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39m_input_request(\n\u001b[1;32m   1283\u001b[0m     \u001b[38;5;28mstr\u001b[39m(prompt),\n\u001b[1;32m   1284\u001b[0m     \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39m_parent_ident[\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mshell\u001b[39m\u001b[38;5;124m\"\u001b[39m],\n\u001b[1;32m   1285\u001b[0m     \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mget_parent(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mshell\u001b[39m\u001b[38;5;124m\"\u001b[39m),\n\u001b[1;32m   1286\u001b[0m     password\u001b[38;5;241m=\u001b[39m\u001b[38;5;28;01mFalse\u001b[39;00m,\n\u001b[1;32m   1287\u001b[0m )\n",
+      "File \u001b[0;32m/opt/anaconda3/lib/python3.13/site-packages/ipykernel/kernelbase.py:1325\u001b[0m, in \u001b[0;36mKernel._input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m   1322\u001b[0m \u001b[38;5;28;01mexcept\u001b[39;00m \u001b[38;5;167;01mKeyboardInterrupt\u001b[39;00m:\n\u001b[1;32m   1323\u001b[0m     \u001b[38;5;66;03m# re-raise KeyboardInterrupt, to truncate traceback\u001b[39;00m\n\u001b[1;32m   1324\u001b[0m     msg \u001b[38;5;241m=\u001b[39m \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mInterrupted by user\u001b[39m\u001b[38;5;124m\"\u001b[39m\n\u001b[0;32m-> 1325\u001b[0m     \u001b[38;5;28;01mraise\u001b[39;00m \u001b[38;5;167;01mKeyboardInterrupt\u001b[39;00m(msg) \u001b[38;5;28;01mfrom\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[38;5;28;01mNone\u001b[39;00m\n\u001b[1;32m   1326\u001b[0m \u001b[38;5;28;01mexcept\u001b[39;00m \u001b[38;5;167;01mException\u001b[39;00m:\n\u001b[1;32m   1327\u001b[0m     \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mlog\u001b[38;5;241m.\u001b[39mwarning(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mInvalid Message:\u001b[39m\u001b[38;5;124m\"\u001b[39m, exc_info\u001b[38;5;241m=\u001b[39m\u001b[38;5;28;01mTrue\u001b[39;00m)\n",
+      "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
+     ]
+    }
+   ],
+   "source": [
+    "erin = input (\"Enter the Area: \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ee41788a-e7a0-4dd4-b0e9-7403b790f328",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a42f1897-46f3-4fd8-b0a7-c096e96da5d5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "22fc89af-62dc-475b-a4dc-55be1daadc75",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0a3a3db7-90cb-4057-973d-ebd1b2047f5c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "erin = input (\"Enter the Area: \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4eef814e-f8f7-4b59-9680-c8032da56501",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8719dac4-da4f-44fd-a242-f698a54a1657",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "213786ab-053f-4ca6-bce9-89092a7c7643",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b23a077f-cfd9-4d16-9bee-2b2fc44981c7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "erin = input (\"Enter the Area: \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5ba713b0-906a-4f59-ae8a-8c8be9126e51",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name = input (\"Enter your name: \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "30fded6b-5010-4135-844e-b1fceb514adf",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "id": "c208e027-a1a2-428e-9cdc-4f8287930797",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the Area:  BNC\n"
+     ]
+    }
+   ],
+   "source": [
+    "erin = input (\"Enter the Area: \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 113,
+   "id": "f3d25902-15a3-42ce-aa54-e9066ea91535",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'BNC'"
+      ]
+     },
+     "execution_count": 113,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "erin"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "id": "b2cdb8c1-4bf0-42e3-87b5-9a394d21d953",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter name:  erin\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input (\"enter name: \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 116,
+   "id": "f35fd5d5-4662-4398-b0ca-582f295ea35f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "BCN\n"
+     ]
+    }
+   ],
+   "source": [
+    "if name == \"erin\":\n",
+    "    print (\"BCN\")\n",
+    "else:\n",
+    "    if len(name) <= 4:\n",
+    "        print(\"SP\")\n",
+    "    elif len(name) >4 and len(name)<=7:\n",
+    "        print(\"LD\")\n",
+    "    else: \n",
+    "        print (\"BCN\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dcf5f0b6-91c2-416c-a789-fd91393149a2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "if name == \"erin\":\n",
+    "    print (\"BCN\")\n",
+    "else:\n",
+    "    nameLen = len(name)\n",
+    "    if nameLen <= 4:\n",
+    "        print(\"SP\")\n",
+    "    elif nameLen >4 and nameLen <=7:\n",
+    "        print(\"LD\")\n",
+    "    else: \n",
+    "        print (\"BCN\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 119,
+   "id": "e7c9ea58-f85a-43f2-9e88-31e98c25aca7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'area' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[119], line 2\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[38;5;28;01mif\u001b[39;00m name \u001b[38;5;241m==\u001b[39m \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124merin\u001b[39m\u001b[38;5;124m\"\u001b[39m:\n\u001b[0;32m----> 2\u001b[0m     area (\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mBCN\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[1;32m      3\u001b[0m \u001b[38;5;28;01melse\u001b[39;00m:\n\u001b[1;32m      4\u001b[0m     nameLen \u001b[38;5;241m=\u001b[39m \u001b[38;5;28mlen\u001b[39m(name)\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'area' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "if name == \"erin\":\n",
+    "    area (\"BCN\")\n",
+    "else:\n",
+    "    nameLen = len(name)\n",
+    "    if nameLen <= 4:\n",
+    "        area (\"SP\")\n",
+    "    elif nameLen >4 and nameLen <=7:\n",
+    "        area (\"LD\")\n",
+    "    else: \n",
+    "        area (\"BCN\")\n",
+    "print(\"Your area is: \" + area)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "86861628-9471-467d-bbf2-15c56dc0d4b3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8b228f0a-b43a-4140-8505-679688e4d431",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1e60bf86-5f12-4953-96b8-34e58dec08f1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2c2f8156-1c4b-4716-b886-55254f496d2c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0d509e13-8c30-4a09-9046-eadafd8b4fce",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "04d5293b-2f87-40bf-9632-2d59d77bcd0d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "19208a1f-986e-4d29-be09-c10ed9863136",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3585610b-4b87-44ba-8c2a-cbe2e07a0a57",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e0079afe-1799-4a14-a551-fca194efec78",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b3c7d34a-a8a7-4f91-a823-6bcf9d4247f7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "34e2f1ae-b806-4510-8d20-8a5c627aadf3",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8bd708dc-5c56-4f5c-af01-a66a4fbf67a1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ec10dd05-256a-44c8-a8e8-33610732709f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1da4f359-4ef5-4a42-92e5-249e691bba4b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f94aff82-c8ec-4184-8eda-5c57d417250f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2c982c74-93e5-4db4-8eaa-a4d26d8471eb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "45a8c25a-93f1-4720-9646-092a147d7f9c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ce6d7323-be77-44a2-b51c-2a0f8bb6d974",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "564bc6c3-fb16-4edc-b1a3-a8d34aafd10e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1aa48171-d893-4e6e-8ed4-29f052210d36",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "10e6cdd0-6594-44fc-9f99-9c646fce5bb2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e1fab8ad-b123-4246-a912-bbb1c9e967de",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4eb81c44-eb33-4a70-8daf-50c6c590df93",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "52f8ed59-4e8c-4ca9-9f15-23cd784fcca5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5378a506-4a2e-49ac-ab99-4d954f7d157b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "56154bc3-7af0-4821-a376-a6338fbd0baf",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "72f7465e-ccf0-4f6b-82d8-a63f29c8afdc",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "373354bd-0013-4929-acee-7dbc6dfc47db",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "61bf21ce-19f2-443b-a001-fa4ff3a3dcbe",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "182b1dce-4c68-46e1-a907-9c69e60eedd3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "792d8977-4903-486f-8a4a-953076894b46",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1f584f54-78b0-4dc6-9e3a-05e00802c7f8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4134365e-7216-4c7b-bdcc-0bf4b6a496e5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "af0ce85b-9e46-4a65-8705-5c78fb520891",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d66045f2-46f0-4bd2-b7b7-dc3cd7107686",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6c4bd7bc-d86b-474a-9680-d7a41355ec87",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "68c6c470-1753-4332-8002-a9b6ec53c9b3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "82f6f42e-cf7e-4e85-9cff-3dc9925c9fe3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "11a25935-bac3-4bb4-8ec2-269dc29e3d49",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f62a4fd5-fd5e-4f33-8a30-0cae85e188e5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "34515a0e-1a09-43e6-937c-add867c05e26",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
