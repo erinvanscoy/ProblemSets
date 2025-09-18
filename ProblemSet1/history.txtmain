@@ -1,0 +1,500 @@
+   29  cd ~ /
+   30  pwd
+   31  mkdir ClassFiles
+   32  ls - lrt
+   33  ls - lrt
+   34  ls -lrt
+   35  touch temp.text
+   36  touch temp.txt
+   37  ls -l
+   38  vi temp.t
+   39  vi temp.text
+   40  cp temp.text2.txt
+   41  mkdir replicas
+   42  ls - l
+   43  ls -l
+   44  mv temp2.text replicas
+   45  /mnt/c/Users/erinvanscoy/Downloadss
+   46  /mnt/c/Users/erinvanscoy/Downloads
+   47  cd ~/
+   48  mkdir ClassFiles/replicas
+   49  mv *.pdb ~/ClassFiles/
+   50  clear
+   51  cd ~l
+   52  cd ~/
+   53  pwd
+   54  ls
+   55  mkdir ClassFiles
+   56  mv ~/home/downloads/* .pdb /user/erinvanscoy
+   57  mv ~/home/downloads/* .pdb /User/erinvanscoy
+   58  cd mnt/c/Users/erinvanscoy/Downloads
+   59  ls
+   60  cd Downloads
+   61  ls
+   62  mv *.pdb ~/ClassFiles
+   63  mv haiku.txt ~/ClassFiles
+   64  mv LittleWomen.txt ~/ClassFiles
+   65  cd ~/
+   66  cd ClassFiles
+   67  ls
+   68  cd /
+   69  cd ClassFiles
+   70  cd Downloads
+   71  cd downloads
+   72  ls
+   73  ~/
+   74  cd Downloads
+   75  ls
+   76  cd Users/Erinvanscoy
+   77  cd ClassList
+   78  ls
+   79  cd ClassFiles
+   80  mv replicas ~/ ClassFiles
+   81  mv replicas  ~/ClassFiles
+   82  mv temp.t ~/ClassFiles
+   83  mv temp.t  ~/ClassFiles
+   84  cd /
+   85  cd Users
+   86  cd User/erinvanscoy
+   87  ~/
+   88  cd ~/
+   89  cd Users/erinvanscoy
+   90  cd ClassFiles
+   91  cd ?
+   92  cd /
+   93  cd ClassFiles
+   94  cd ?
+   95  cd /
+   96  cd ClassFiles
+   97  cd ~/
+   98  cd Downloads
+   99  cd ClassFiles
+  100  ~/
+  101  cd /
+  102  cd ClassFiles
+  103  cd users
+  104  cd ClassFiles
+  105  cd erinvanscoy
+  106  cd classfiles
+  107  ls
+  108  git --version
+  109  git config --global user.name erinvanscoy
+  110  git congig --global user.email ev18kl@brocku.ca
+  111  git config --global user.email ev18kl@brocku.ca
+  112  git --version
+  113  git config --global user.name erinvanscoy 
+  114  git config --global user.email ev18kl@brocku.c
+  115  ls
+  116  cd ~/
+  117  cd ?
+  118  cd /
+  119  cd . . /
+  120  cd ../
+  121  pwd
+  122  ls
+  123  cd ~/
+  124  ls
+  125  pwd
+  126  cd./
+  127  cd ~/downloads
+  128  cd~/
+  129  cd ~/
+  130  cd ClassFiles
+  131  cd ~/
+  132  git --version
+  133  ls man
+  134  ls
+  135  ls man
+  136  ls -a
+  137  pwd
+  138  cd ~/
+  139  cd ../
+  140  cd../
+  141  cd ~/
+  142  cd
+  143  cd ~/
+  144  cd replicas
+  145  ls
+  146  ~/
+  147  cd ~/
+  148  cd downloads
+  149  ls
+  150  ~/
+  151  cd ~/
+  152  cd replicas
+  153  touch tmp.txt
+  154  ls
+  155  cp tmp.txt tmp2.txt
+  156  ls
+  157  rm tmp?.txt
+  158  ls
+  159  wc cubane.pdb
+  160  cd ~/
+  161  wc cubane.pdb
+  162  wc cubane.pdb
+  163  cd ClassFiles
+  164  wc cubane.pdb
+  165  man wc
+  166  wc *.pdb
+  167  wc *.pdb > lengths.txt
+  168  man cat
+  169  cat lengths.txt
+  170  wc LittleWomen.txt
+  171  sort -n lengths.txt
+  172  sort -n lengths.txt > sorted-lengths.txt
+  173  cat sorted-lengths.txt
+  174  sort-n lengths.txt | head -n 1
+  175  sort -n lengths.txt | head -n 1
+  176  man head
+  177  wc -w *.pdb | sort-n | head -n 1
+  178   wc -w *.pdb | sort -n | head -n 1
+  179  man *
+  180  man sort
+  181  clear
+  182  cat haiku.txt
+  183  grep the haiku.txt
+  184  egrap 'the|is' haiku.txt
+  185  egrep 'the|is' haiku.txt
+  186  find tmp.txt
+  187  find lengths.txt
+  188  clear
+  189  git config --global user.name erinvanscoy
+  190  ~/
+  191  git config --global user.name "erinvanscoy"
+  192  git config --global user.name "ev18kl@brocku.ca
+  193  ~?
+  194  cd ~/
+  195  psw
+  196  git config --global user.name "ev18kl@brocku.ca"
+  197  git config --global --edit
+  198  ~/
+  199  cd /
+  200  ls -a
+  201  notepad .gitconfig
+  202  vi .gitconfig
+  203  git config --global user.name "erinvanscoy"
+  204  git config --global user.email "ev18kl@brocku.ca"
+  205  git config --global --edit
+  206  git config --global init.default.Branch main
+  207  vi .gitconfig
+  208  git config --global --edit
+  209  cd ClassFiles
+  210  cd ~/
+  211  cd ClassFiles
+  212  mkdir recipes
+  213  cd recipes
+  214  git init
+  215  ls
+  216  ls -a
+  217  git status
+  218  ~/
+  219  touch guacamole.md
+  220  vi guacamole.md
+  221  git add guacamole.md
+  222  git status 
+  223  git commit -m "Create initally guacamole"
+  224  git status
+  225  vi guacamole
+  226  vi guacamole.md
+  227  git status 
+  228  git diff
+  229  git add guacamole.md
+  230  git status
+  231  git diff --staged
+  232  git commit -m "added some ingredients"
+  233  vi guacamole.md
+  234  git diff
+  235  git add guacamole.md
+  236  git commit -m "more avos please"
+  237  git log
+  238  mkdir healthymeals
+  239  git diff
+  240  cd healthymeals
+  241  touch cake
+  242  cd ../
+  243  git diff
+  244  git add healthymeals
+  245  git status
+  246  cd guacamole.md
+  247  vi guacamole.md
+  248  git diff
+  249  git diff guacamole.md git diff HEAD guacamole.md
+  250  git diff HEAD guacamole.md
+  251  git log 
+  252  git log --oneline
+  253  git diff befb117 guacamole.md
+  254  git diff 652ae52 guacamole.md
+  255  git add guacamole.md 
+  256  git commit -m "just making sure"
+  257  git log
+  258  git log --online
+  259  git log --oneline
+  260  git restore guacamole.md
+  261  git log --oneline
+  262  vi guacamole.md
+  263  git restore
+  264  vi guacamole.md
+  265  git restore
+  266  vi guacamole.md
+  267  git log --oneline
+  268  git restore -s bdc2248 guacamole.md
+  269  vi guacamole.md
+  270  git log
+  271  git log --oneline
+  272  touch tmp.txt
+  273  gif status
+  274  git status
+  275  touch .gitignore
+  276  vi .gitignore
+  277  git status
+  278  cd ~/
+  279  ls -a
+  280  ssh-keygen -t ed25519 -C "ev18kl@brocku.ca"
+  281  ls -a
+  282  vi GithubKey.pub
+  283  cd recipes
+  284  dc recipes
+  285  cd ClassFiles
+  286  cd recipes
+  287  git remote add origin git@github.com:erinvanscoy/recipes.git
+  288  git push origin main
+  289  cd ~/
+  290  vi GithubKey.pub
+  291  cd ClassFiles
+  292  cd recipes
+  293  cd ~/
+  294  vi Githubkey.pub
+  295  cd ClassFiles
+  296  cd recipes
+  297  git remote add origin git@github.com:erinvanscoy/recipes.git
+  298  git push origin main
+  299  git -M main
+  300  git push origin main
+  301  git push origin main
+  302  git remove add origin git@github.com:https://github.com/erinvanscoy/recipes.git/recipes.git
+  303   git remote add origin git@github.com:https://github.com/erinvanscoy/recipes.git/recipes.git
+  304  git push origin main
+  305  ssh-keygen -t ed25519 -C "ev18kl@brocku.ca"
+  306  ssh-keygen -t ed25519 -C "ev18kl@brocku,ca"
+  307  cat Githubkey2.pub
+  308  git remote add origin git@github.com:erinvanscoy/recipes.git
+  309  git push origin main
+  310  ~/
+  311  cd ~/
+  312  ls -a
+  313  cd /
+  314  ls -a
+  315  cd ~/
+  316  ls -a
+  317  ssh-keygen -t ed25519 -C "ev18kl@brocku.ca"
+  318  ls -a
+  319  cd ssh
+  320  cd .ssh
+  321  ls -a
+  322  vi id_ed25519.pub
+  323  cd ~/
+  324  cd ClassFiles
+  325  cd recipes
+  326  git push origin main
+  327  git status
+  328  git log
+  329  --oneline
+  330  --online guacamole
+  331  --oneline guacamole
+  332  git diff HEAD
+  333  git diff HEAD-2 guacamole
+  334  git diff HEAD~2 guacamole
+  335  git log
+  336  cd ~/
+  337  cd /
+  338  cd ~/
+  339  cd ClassFilrd
+  340  cd ClassFiles
+  341  mkir john
+  342  git
+  343  cd replicas
+  344  git
+  345  ~/
+  346  cd . . /
+  347  pwd
+  348  pwd
+  349  ls
+  350  ls -a
+  351  ~/ cd
+  352  cd ClassFiles
+  353  ls
+  354  ls
+  355  pwd
+  356  mkdir ProblemSets
+  357  cd ProblemSets
+  358  pwd
+  359  git init 
+  360  git branch -M main
+  361  git remote origin git@github.com:erinvanscoy/ProblemSets.gi
+  362  git remote -v
+  363  git remote add  origin git@github.com:erinvanscoy/ProblemSets.gi
+  364  git remote -v
+  365  ls -1rt
+  366  pwd
+  367  manual -t
+  368  manual ls
+  369  man is
+  370  man ls
+  371  man ls- lrt
+  372  ls -lrt
+  373  man ls 
+  374  cd ~/
+  375  psw
+  376  pwd
+  377  cd downloads
+  378  cd documents
+  379  cd ~/
+  380  cd users
+  381  cd /
+  382  pwd
+  383  [w
+  384  cd /
+  385  pwd
+  386  ls
+  387  cd users
+  388  cd erinvanscoy
+  389  cd documents
+  390  pwd
+  391  cd . . /
+  392  pwd
+  393  cd ../
+  394  pwd
+  395  cd ~/
+  396  pwd
+  397  cd erinvanscoy
+  398  cd /
+  399  pwd
+  400  cd home/erinvanscoy
+  401  cd user/documents
+  402  cd users
+  403  cd documents
+  404  dc documents
+  405  pwd
+  406  cd erinvanscoy
+  407  cd documents
+  408  cd /users/erinvanscoy
+  409  pwd
+  410  cd ClassFiles
+  411  mkdir data 
+  412  touch subj01.txt
+  413  cp subj01.txt subj02.txt subj05.txt subj11.txt
+  414  ls
+  415  cp subj01.txt subj02.txt
+  416  ls
+  417  cp subj01.txt subj05.txt subj011.txt
+  418  cp sub01.txt subj05.txt
+  419  cp subj01.txt subj05.txt
+  420  ls
+  421  cp subj01.txt subj11.txt
+  422  ls
+  423  mv subj01.txt subj02.txt subj05.txt subj11.txt ~/ data
+  424  mv subj01.txt subj02.txt subj05.txt subj11.txt ~/ClassFiles/data
+  425  pwd
+  426  ls
+  427  cd data
+  428  ls
+  429  rm subj01.txt subj02.txt subj05.txt
+  430  ls
+  431  man tee
+  432  man | cd ~/
+  433  man | |
+  434  man pipe
+  435  pwd
+  436  cd ClassFiles/ProblemSets
+  437  cd Problemsets
+  438  cd
+  439  pwd
+  440  cd ClassFiles
+  441  ls
+  442  cd ProblemSets
+  443  touch ProblemSet1
+  444  ls
+  445  pwd
+  446  vi ProblemSets
+  447  vi ProblemSets1
+  448  vi ProblemSets
+  449  vi ProblemSets1
+  450  man pipe
+  451  man tee
+  452  pwd
+  453  cd ClassFiles
+  454  cd ../
+  455  pwd
+  456  touch greetings.txt
+  457  pwd
+  458  ls
+  459  man tee
+  460  echo "Hello" | tee greetings.txt hello
+  461  vi greetings.txt
+  462  echo "pooooo" | tee greetings.txt 
+  463  vi greetings.txt 
+  464  echo "hello" | tee greetings.txt
+  465  vi greetings.txt
+  466  vi greetings.txt
+  467  vi greetings.txt
+  468  man echo
+  469   echo "Hello" | tee greetings.txt
+  470  vi greetings.txt
+  471  pwd
+  472  ls
+  473  cd hello
+  474  cd ProblemSets
+  475  cd ../
+  476  vi hello
+  477  rm hello
+  478  ls
+  479  cd ProblemSets
+  480  vi ProblemSets1
+  481  bash
+  482  man history
+  483  history
+  484  cd
+  485  pw
+  486  pwd
+  487  ls
+  488  cd ClassFiles
+  489  ls
+  490  history/recipes
+  491  history > history.txt1
+  492  ls
+  493  cd history.txt
+  494  cd history.txt1
+  495  pwd
+  496  cd history.txt1
+  497  rm history.txt1
+  498  ls
+  499  ~/
+  500  cd ~/
+  501  pwd
+  502  cd ClassFiles/ history > history.txt2
+  503  ls
+  504  classfiles
+  505  cd ClassFiles
+  506  vi ClassfILES
+  507  vi ClassFiles
+  508  cd ClassFiles | history > history.txt1
+  509  ls
+  510  cd history.txt1
+  511  :wq
+  512  vi history.txt1
+  513  screen
+  514  pwd
+  515  ls
+  516  rm history.txt1
+  517  cd ~ /
+  518  pwd
+  519  cd ClassFiles | history > history.txtmain
+  520  ls
+  521  cd ClassFiles
+  522  ls
+  523  rm history.txt2
+  524  cd ../
+  525  ls
+  526  rm history.txt2
+  527  rm history.txtmain
+  528  cd ClassFiles | history > history.txtmain
