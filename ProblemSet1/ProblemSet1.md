@@ -43,4 +43,4 @@
 ![App Screenshot](ForkedSC.png)
 
 ### Question 8)
-![App Screenshot](FinishedCommitSC.png)  
+* `history 10 > Command_Hist.txt` This code was used to pull the history from the last 10 commands and write in into a text file. The `>` command is telling the terminal to put the history information into a new file named Command_Hist.txt.   
