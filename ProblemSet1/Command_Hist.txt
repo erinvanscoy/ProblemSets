@@ -1,0 +1,6 @@
+  550  ls
+  551  git add ProblemSet1
+  552  git commit -m "Committing ProblemSet1"
+  553  git push origin man
+  554  git push origin main
+  555  history 6 > Command_Hist.txt
