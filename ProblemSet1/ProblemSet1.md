@@ -37,7 +37,10 @@
 * When examining both files, it becomes clear that they are not the same. The history file established in the screen terminal had included all previously executed commands, that being from both when the user is in the main terminal and using the screen. However, the main terminal history account only consisted of executed commands that occured inside the main terminal.
 
 ### Question 6)
-! [This is a picture of my screenshot] (GithubIntroTSC.png) 
+! [App Screenshot] (GithubIntroTSC.png) 
 
 ### Question 7)
-! [This is the second picture of my screenshot] (ForkedSC.png) 
+! [App Screenshot] (ForkedSC.png)
+
+### Question 8)
+! [App Screenshot] (FinishedCommitSC.png)  
