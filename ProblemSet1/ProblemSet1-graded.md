@@ -1,0 +1,68 @@
+# Problem Set One 
+#### Erin Vanscoy
+
+### Question 1a)
+* The command I would use to list the files in the current directory while sorting it in reverse order of when they were last edited is `ls -rt`. This command is organizing all files in the current directory in reverse order by time.
+
+### Question 1b)
+* To expand on this command and provide the date and time the file was last edited I would add `l`, the new command would follow as such `ls -lrt`. This now changes the command so that the list of files in the current directory will appear reversed by time modified, but the date and time are listed. 
+
+### Question 1c)
+* The manual description of the `(-l)`, long format command is below. 
+    >> When printing in the long (-l) format, display complete time information
+             for the file, including month, day, hour, minute, second, and year.  The
+             -D option gives even more control over the output format.  This option is
+             not defined in IEEE Std 1003.1-2008 (“POSIX.1”).
+
+:memo: **3/3**
+
+### Question 2)
+* The three commands that can be used to navigate from the direction `/users/erinvanscoy/documents/` to my home directory are listed below. 
+    1. `cd ~/` This command brings the user directly to your home directory.
+    2. `cd ../` This command brings the user up a directory, which in this case would bring the user from documents back into erinvanscoy (which is the home directory).
+    3. `cd /users/erinvanscoy` This command brings the user back to the root directory and then into users, and then back into the home directory.
+       >> **Technically it doens't take you through those directories - you're just spelling out the full path of the directory you want to go to. But it's OK if it helps you think of it this way.**
+ 
+:memo: **3/3**
+
+### Question 3)
+* Commands to do the following are listed below: 
+    1. `mkdir data` This command is used to make a new directory. The code `mkdir` is telling the terminal to make a new directory. Following this command, the user must name the directory. 
+    2. `touch subj01.txt` This command is used to make a new file. The code `touch` is telling the terminal to make a new file. Following this command, the user must name the file. 
+    3. `cp subj01.txt subj02.txt subj05.txt subj11.txt` This command is used to copy an existing file. The code `cp` is telling the terminal to copy an existing file and make a new file. Following this command the user must implement which existing file they want copied and then list new file names (depending on how many copies they need).
+    >> **Did you run this command? This tries to read the third file as a directory - you're mis-using the command here.**
+    4. `mv subj01.txt subj02.txt subj05.txt subj11.txt ~/ data` The command is used to move existing files into a different directory or folder. The code `mv` is telling the terminal to move existing files to a new location. Following this command the user must list all the files they want moved. This command ends with the user specifying where they want to move the files (in this case in the new data folder).
+    >> **I was surprised to find out this works, but two thigns:1. you have a space between the `~/` and `data` which will fail 2. you could have more easily just moved everything using `mv *.txt Data`**
+    5. `rm subj01.txt subj02.txt subj05.txt` The command is used to remove existing files. The code `rm` is telling the terminal to permanently remove a file. Following this command the user needs to implement which files they want removed (in this case, every file we made except for subject 11).
+    >> **Again, you can do this more efficiently with `rm subj0?.txt' or `rm subj0\*.txt`**
+
+:memo: *2.5/5**
+    
+### Question 4)
+* The command I used to implement the `tee` code with a pipe symbol was `echo "Hello" | tee greetings.txt`. This command was used to write text inside an existing file. The `echo "Hello"` command is telling the terminal to prepare input, that being the word hello. Following this command is a pipe character, which was used to direct the command to the tee command. Following the pipe is the  `tee greetings.txt`  command, the tee command takes the information from the pipe and then prints out the written input in the terminal, as well as in the specified file.
+
+:memo: **3/3**
+
+### Question 5) 
+* `cd ClassFiles | history > history.txtmain` This is the code used inside the main terminal. This is directing the terminal into the ClassFiles folder and then directing it to create a record of previously executed commands in a new file named history.txtmain.
+* `cd ClassFiles | history > history.txtscreen` This is the code used when inside the screen. This is directing the terminal into the ClassFiles folder and then directing it to create a record of previously executed commands in a new file named history.txtscreen. 
+* When examining both files, it becomes clear that they are not the same. The history file established in the screen terminal had included all previously executed commands, that being from both when the user is in the main terminal and using the screen. However, the main terminal history account only consisted of executed commands that occurred inside the main terminal.
+
+:memo: **3/3**
+
+### Question 6)
+![App Screenshot](GitHubSC.png) 
+
+:memo: **3/3**
+
+### Question 7)
+![App Screenshot](ForkedSC.png)
+
+:memo: **3/3**
+
+### Question 8)
+* `history 10 > Command_Hist.txt` This code was used to pull the history from the last 10 commands and write in into a text file. The `>` command is telling the terminal to put the history information into a new file named Command_Hist.txt.
+
+:memo: **3/3**
+
+:memo: **Total: 23.5/26**
